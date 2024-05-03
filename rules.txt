@@ -1,0 +1,26 @@
+Le but est de récupérer les 4 oiseaux du niveau sans se faire toucher par
+la balle et en évitant les pièges.
+
+-> Initialement, le joueur possède 3 vies.
+Chaque niveau devra être résolu en moins de 120 secondes. 
+Si le temps est écoulé, le joueur perd une vie et recommence le niveau.
+
+Snoopy ne peut pas se déplacer en diagonale. Il ne peut se déplacer que dans les 4 directions classiques
+(Haut, Bas, Gauche et Droite) et d'une seule case à la fois. Evidemment, en cas d'obstacle, Snoopy ne
+pourra pas effectuer son déplacement. Il ne peut pas sortir du niveau.
+
+La balle « tue » Snoopy quand elle le touche.
+
+-> Condition de victoire ou de défaite
+Pour gagner, il faut récupérer les 4 oiseaux du niveau. Un fois un niveau terminé, 
+le niveau suivant est chargé automatiquement en donnant son code d’accès et ainsi de suite.
+Quand le joueur perd toutes ses vies, on affiche un écran de Game Over et le jeu revient au menu
+principal.
+
+-> Sauvegarde et chargement d'une partie
+A chaque instant, le joueur peut s'il le souhaite sauvegarder sa partie en appuyant sur la touche 's’ du
+clavier. 
+Pour charger une partie, il faut passer par le menu principal et choisir "Charger une partie".
+
+-> Mode "pause"
+Si le joueur appuie sur la touche de « p », le jeu se met en pause
